@@ -1,0 +1,370 @@
+.container {
+width:600px;
+margin:0 auto;
+position:relative;
+}
+
+.header {
+font-family:cute;
+font-size:100px;
+text-align:center;
+color:#124375;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20px;
+}
+
+.main {
+margin:0 auto;
+margin-top:10px;
+background-image: url("https://rice.place/rice/bluebg.png");
+border-radius:10px;
+padding:15px;
+}
+
+.mainbox {
+width:100%;
+background-color: white;
+padding:10px;
+box-sizing: border-box;
+border-radius: 10px;
+border:1px dashed #b2c8df;
+}
+
+.navigation {
+width:100%;
+margin-top:10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:10px;
+border:0px dashed #b2c8df;
+}
+
+.navbox {
+border:0px dashed #b2c8df;
+width:430px;
+}
+
+.navbox1 {
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap:30px;
+}
+
+.one {
+border: none;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+}
+
+.two {
+border: none;
+line-height:10%;
+padding:10px 0px 0px 0px;
+text-align: center;
+}
+
+em {
+background-color: #EFF4F9;
+text-decoration: underline;
+font-weight:bold;
+}
+
+.navilinks {
+border:1px dashed #b2c8df;
+padding:10px;
+width:170px;
+border-radius:10px;
+background-color: white;
+}
+
+.drawbox {
+margin-top:10px;
+display:flex;
+flex-direction: row;
+justify-content: center;
+gap:10px;
+align-items: center;
+}
+
+.navbox2 {
+margin-top:10px;
+height:230px;
+border:1px dashed #b2c8df;
+box-sizing: border-box;
+padding:10px;
+overflow: auto;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.bottomborder {
+border-bottom:1px dashed #b2c8df;
+padding:10px 0px 10px 0px;
+}
+
+h3 {
+margin:0;
+text-align: center;
+}
+
+mark {
+background-color:#DBE5F0;
+color:var(--font-color);
+font-weight:bold;
+text-decoration:underline;
+}
+
+.info {
+margin-top:10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:10px;
+}
+
+.infobox1 {
+border:none;
+}
+
+.status {
+border:1px dashed #b2c8df;
+border-radius:10px;
+background-color: white;
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+padding:15px;
+width:300px;
+}
+
+.cafe {
+width:100%;
+height:100%;
+padding:10px;
+box-sizing: border-box;
+background-color:white;
+border-radius:10px;
+text-align:center;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+#statuscafe-username {
+background: #FFFFFF;
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 10%, rgba(178, 200, 223, 1) 39%, rgba(255, 255, 255, 1) 80%);
+border:1px dashed #b2c8df;
+border-left:none;
+border-right:none;
+}
+
+.infobox2 {
+border:1px solid #b2c8df;
+border-radius:10px;
+background-color: white;
+background-image:url("https://rice.nekoweb.org/rice/bluepolka.png");
+padding:10px;
+overflow:auto;
+}
+
+.more {
+margin-top:10px;
+width:100%;
+height:150px;
+overflow:auto;
+background-color:white;
+padding:10px;
+box-sizing: border-box;
+border-radius:10px;
+border:1px dashed #b2c8df;
+font-size:14px;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+first-ul {
+list-style: none;
+}
+
+.infobox3 {
+margin-top:10px;
+display: flex;
+flex-direction: row;
+gap:10px;
+height:80px;
+}
+
+.guestbook {
+border:none;
+}
+
+.fyi {
+border:1px dashed #b2c8df;
+padding:10px;
+overflow:auto;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.itaiyo {
+width:100%;
+border:1px solid #b2c8df;
+margin-top:10px;
+background-color: white;
+padding:10px;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:10px;
+box-sizing: border-box;
+}
+
+.calendar {
+background-color: transparent;
+}
+
+.ricelink {
+background-color: transparent;
+}
+
+.list {
+border:0px dashed #b2c8df;
+padding:0px;
+width:150px;
+height:200px;
+overflow:auto;
+font-size:10px;
+text-align: center;
+}
+
+.footer {
+margin-top:10px;
+text-align: center;
+font-weight: bold;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+.title {
+padding:5px;
+border:1px dashed #b2c8df;
+background-image: url("https://rice.place/rice/c027-2.gif");
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+border-radius: 10px;
+font-weight:bold;
+font-size:14px;
+}
+
+ul {
+list-style:url("https://rice.nekoweb.org/rice/g06-icon-circle.gif");
+padding-left:20px;
+margin-top:5px;
+line-height: 1.4;
+}
+
+#s-m-t-tooltip{
+/* basic */
+max-width: 170px;
+ z-index: 999;
+margin: 24px 14px 7px 12px;
+/* style and design */
+padding:5px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+border-radius:10px;
+border:1px groove #b2c8df;
+background-color:white;
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+color: #5d5d5d;
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+font-weight:bold;
+box-shadow: 0px 0px 5px 0px #8aa4c1 inset;
+}
+
+#smolltoro {
+position:absolute;
+top:68px;
+right:20px;
+z-index:1;
+width:35px;
+height:27px;
+background-image: url("https://rice.place/rice/torowingings.gif");
+}
+
+#wing1 {
+position:absolute;
+top:53px;
+left:-60px;
+z-index:1;
+background-image: url("https://rice.place/rice/m1.png");
+background-size: 100px;
+width:100px;
+height:93px;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+}
+
+#wing2 {
+position:absolute;
+top:470px;
+right:-60px;
+z-index:1;
+background-image: url("https://rice.place/rice/m2.png");
+background-size: 100px;
+width:100px;
+height:84px;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+}
+
+#wing3 {
+position:absolute;
+top:720px;
+left:-60px;
+z-index:1;
+background-image: url("https://rice.place/rice/m4.png");
+background-size: 100px;
+width:100px;
+height:105px;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+}
+
+#wing4 {
+position:absolute;
+bottom:200px;
+right:-84px;
+z-index:1;
+background-image: url("https://rice.place/rice/m3.png");
+background-size: 100px;
+width:100px;
+height:105px;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+}
+
+#wing1, #wing2, #wing3, #wing4 {
+animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }

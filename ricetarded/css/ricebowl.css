@@ -1,0 +1,330 @@
+.container {
+position:relative;
+margin:auto;
+border:1px solid #b2c8df;
+border-radius:10px;
+background-color:#fdfeff;
+padding:10px;
+width:600px;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+.header {
+border:1px solid #b2c8df;
+border-radius:10px;
+height:218px;
+background-color:#F5FAFF;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+.main {
+margin-top:10px;
+width:100%;
+height:580px;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+gap:10px;
+border:0px solid #b2c8df;
+}
+
+.tablinks {
+border:none;
+background-color:transparent;
+text-decoration:underline;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+color:#124375;
+font-family:font;
+font-size:16px;
+text-align:left;
+padding:0px;
+cursor: url('https://rice.nekoweb.org/toroinoue.ico'), auto;
+}
+
+.tablinks:hover {
+border:none;
+background-color:transparent;
+text-decoration:underline;
+text-shadow: -1px -1px 0 #b2c8df, 1px -1px 0 #b2c8df, -1px 1px 0 #b2c8df, 1px 1px 0 #b2c8df;
+color:#124375;
+font-family:font;
+font-size:16px;
+font-weight:normal;
+font-style:normal;
+cursor: url('https://rice.nekoweb.org/kuro.ico'), auto;
+}
+
+#s-m-t-tooltip{
+/* basic */
+max-width: 170px;
+ z-index: 999;
+margin: 24px 14px 7px 12px;
+/* style and design */
+padding:5px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+border-radius:10px;
+border:1px groove #b2c8df;
+background-color:white;
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+color: #5d5d5d;
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+font-weight:bold;
+box-shadow: 0px 0px 5px 0px #8aa4c1 inset;
+}
+
+.sidebar {
+border:1px solid #b2c8df;
+border-radius:10px;
+padding:10px;
+text-align: center;
+width:125px;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+.nav {
+height:30px;
+background-image:url("https://rice.nekoweb.org/rice/nav01.png");
+background-repeat:no-repeat;
+text-align:right;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+margin:0px 0px 5px 0px;
+padding:0px 10px 0px 0px;
+}
+
+.nav:hover {
+height:30px;
+background-image:url("https://rice.nekoweb.org/rice/nav02.png");
+background-repeat:no-repeat;
+text-align:right;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+margin:0px 0px 5px 0px;
+padding:0px 10px 0px 0px;
+}
+
+.content {
+border:1px solid #b2c8df;
+border-radius:10px;
+padding:10px;
+width:423px;
+overflow:auto;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+.topbar {
+margin-top:10px;
+border:1px solid #b2c8df;
+border-radius:10px 10px 0px 0px;
+border-bottom:none;
+width:130px;
+padding:5px 5px 5px 10px;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+font-weight:bold;
+}
+
+.newsletter {
+box-sizing: border-box;
+border:1px solid #b2c8df;
+border-radius:0px 10px 10px 10px;
+width:100%;
+padding:10px;
+background-color:white;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+span {
+background-color:#b2c8df;
+font-weight:normal;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+padding:1px;
+}
+
+.othermain {
+margin-top:10px;
+display:flex;
+gap:10px;
+height:250px;
+}
+
+.calendar {
+
+}
+
+.list {
+border:1px solid #b2c8df;
+border-radius:10px;
+padding:10px;
+width:100%;
+overflow:auto;
+}
+
+.title {
+border:1px solid #b2c8df;
+border-radius:5px;
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+font-weight:bold;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+padding:5px;
+margin:0px 0px 10px 0px;
+}
+
+em {
+font-weight:bold;
+text-decoration:underline;
+font-style:normal;
+}
+
+.stats {
+margin-top:10px;
+padding:0px 5px 0px 5px;
+line-height:10%;
+border:1px solid #b2c8df;
+border-radius:10px;
+text-align:center;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+ul {
+list-style:url("https://rice.nekoweb.org/rice/g06-icon-circle.gif");
+padding-left:20px;
+margin-top:5px;
+line-height: normal;
+}
+
+.footer {
+width:600px;
+padding:10px;
+text-align:center;
+margin-top:10px;
+margin:auto;
+font-weight:bold;
+line-height:1.0;
+}
+
+#keychain {
+position:absolute;
+top:10px;
+right:-40px;
+z-index:1;
+}
+
+#text {
+position:absolute;
+top:20px;
+left:60px;
+z-index:1;
+font-family:popfont;
+font-size:50px;
+color:#8BB2D9;
+rotate: -1deg;
+line-height:100%;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+}
+
+#toro {
+position:absolute;
+bottom:-20px;
+right:-30px;
+z-index:1;
+background-image:url("https://rice.nekoweb.org/rice/toroface01.png");
+width:80px;
+height:82px;
+}
+
+#toro:hover {
+position:absolute;
+bottom:-20px;
+right:-30px;
+z-index:1;
+background-image:url("https://rice.nekoweb.org/rice/toroface02.png");
+}
+
+.message {
+border:0px solid #b2c8df;
+position:absolute;
+top:30px;
+left:-300px;
+z-index:1;
+text-align:right;
+width:300px;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.manifesto {
+transition: width 0.5s;
+transition-timing-function: ease;
+text-align:left;
+padding:5px;
+border:1px solid #b2c8df;
+border-radius:10px 0px 0px 10px;
+width:20px;
+background-color:#F5F7FA;
+z-index:-1;
+height:16px;
+}
+
+.manifesto:hover {
+width:25px;
+}
+
+.cutie {
+border:0px solid #b2c8df;
+position:absolute;
+top:230px;
+right:-300px;
+z-index:1;
+text-align:right;
+width:300px;
+display:flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.pie {
+transition: width 0.5s;
+transition-timing-function: ease;
+text-align:right;
+padding:5px;
+border:1px solid #b2c8df;
+border-radius:0px 10px 10px 0px;
+width:15px;
+background-color:#F5F7FA;
+z-index:-1;
+height:13px;
+}
+
+.pie:hover {
+width:20px;
+}
+
+#wings {
+position:absolute;
+bottom:300px;
+left:-95px;
+z-index:-1;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+width:810px;
+}
+
+.wingsl .wingsr {
+
+}
+
+#torowave {
+position:absolute;
+top:202px;
+right:145px;
+z-index:1;
+}

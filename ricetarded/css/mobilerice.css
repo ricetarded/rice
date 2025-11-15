@@ -1,0 +1,109 @@
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 500px) {
+	body {
+	padding:5px;
+	margin:0;
+	background-image:url("https://rice.nekoweb.org/rice/bluebg.png");
+	font-family:ms gothic;
+	font-size:14px;
+	color:black;
+	overflow:auto;
+	}
+	#torowave {
+	display:none;
+	}
+	#wings {
+	display:none;
+	}
+	#header {
+	display:none;
+	}
+	.container {
+	border:0px solid var(--border);
+	padding:10px;
+	width:400px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+	.left {
+	width:400px;
+	display:flex;
+	flex-direction: column;
+	}
+	.middle {
+	width:400px;
+	}
+	.two {
+	width:100px;
+	}
+	.number {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap:10px;
+	width:400px;
+	border:1px solid var(--border);
+	padding:10px;
+	box-sizing: border-box;
+	background-color: white;
+	}
+	.hana, .tul, .set {
+	border:1px solid var(--border);
+	text-align: ;
+	}
+	.wow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap:10px;
+	width:400px;
+	}
+	.right {
+	display: flex;
+	flex-direction: row;
+	gap:10px;
+	justify-content: center;
+	width:400px;
+	}
+	.chain {
+	display:none;
+	}
+	.main {
+	width:400px;
+	background-image:var(--divimg);
+	}
+	.thirdmain {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width:400px;
+	}
+	.third {
+	width:400px;
+	box-sizing: border-box;
+	}
+	.cafe {
+	width:365px;
+	}
+	#statuscafe-username {
+
+	}
+	.fourthmain {
+	display:flex;
+	flex-direction: column;
+	width:400px;
+	}
+	.updates {
+	width:400px;
+	box-sizing: border-box;
+	}
+	.calendar {
+	display:none;
+	}
+	.footer {
+	width:400px;
+	text-align: center;
+	}
+}

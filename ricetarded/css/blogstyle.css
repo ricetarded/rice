@@ -1,0 +1,59 @@
+a:link {
+text-decoration: underline;
+color:#124375;
+cursor: url('https://rice.nekoweb.org/toroinoue.ico'), auto;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+transition: 0.3s;
+}
+
+a:visited {
+text-decoration: none;
+color:#124375;
+}
+
+a:hover {
+text-decoration: underline;
+font-style:normal;
+color:#124375;
+font-weight:normal;
+text-shadow: -1px -1px 0 #b2c8df, 1px -1px 0 #b2c8df, -1px 1px 0 #b2c8df, 1px 1px 0 #b2c8df;
+cursor: url("https://rice.nekoweb.org/kuro.ico"), auto;
+}
+
+.hovered {
+cursor: url("https://rice.nekoweb.org/kuro.ico"), auto;
+}
+
+.cursorpoint {
+cursor: url("https://rice.nekoweb.org/kuro.ico"), auto;
+}
+
+a:active {
+text-decoration: none;
+color:#124375;
+}
+
+::selection {
+  color: #B0C5A4;
+  background: transparent;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b2c8df; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #124375; 
+}

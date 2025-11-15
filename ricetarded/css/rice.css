@@ -1,0 +1,363 @@
+.container {
+position:relative;
+margin:auto;
+border-width: 9px;
+border-style: solid;
+border-image: url("https://rice.nekoweb.org/rice/cookie02.png") 9 fill round;
+/** border image from foollovers but recolored!! **/
+width:700px;
+padding:10px;
+}
+
+.home {
+box-sizing: border-box;
+background-image:url("https://rice.nekoweb.org/rice/bluebg.png");
+/** bg image made by me! **/
+padding:10px;
+border:1px solid #b2c8df;
+border-radius:10px;
+width:700px;
+}
+
+.header {
+height:300px;
+background-image:url("https://rice.nekoweb.org/rice/raisupureisu.png");
+/** header image made by me! **/
+background-position: center;
+background-color:#F5FAFF;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+border-radius:10px 10px 5px 5px;
+border:1px solid #b2c8df;
+}
+
+/** not really a marquee **/
+.marquee {
+margin-top:10px;
+padding:10px;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+border-radius:10px;
+background-color:white;
+border:1px solid #b2c8df;
+text-align:center;
+}
+
+.main {
+margin-top:10px;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+gap:10px;
+box-sizing: border-box;
+}
+
+.lsidebar {
+width:150px;
+}
+
+.content {
+width:400px;
+}
+
+.rsidebar {
+width:150px;
+}
+/**  **/
+.bar {
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+/** bg image from http://sozaioukoku.fc2web.com/ **/
+border:1px solid #b2c8df;
+border-radius:10px 10px 0px 0px;
+padding:5px;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+font-weight:bold;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+text-align:center;
+}
+
+.box {
+border:1px solid #b2c8df;
+padding:10px;
+border-radius:0px 0px 5px 5px;
+border-top:none;
+background-color:white;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+.boxed {
+border:1px solid #b2c8df;
+padding:10px;
+border-radius:0px 0px 5px 5px;
+border-top:none;
+background-color:white;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+height:200px;
+overflow:auto;
+}
+
+.calendar {
+margin-top:10px;
+}
+
+.stats {
+line-height:10%;
+border:1px solid #b2c8df;
+padding:5px;
+border-radius:0px 0px 5px 5px;
+border-top:none;
+background-color:white;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+.empty {
+margin-top:10px;
+height:300px;
+background-color:white;
+border:1px solid #b2c8df;
+background-image:url("https://rice.nekoweb.org/rice/aahh.png");
+background-color: rgba(255, 255, 255, 0.495);
+background-blend-mode: overlay;
+border-radius:10px;
+color:black;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+font-weight:bold;
+padding:10px;
+box-sizing: border-box;
+}
+
+em {
+background-color:#DBE5F0;
+font-weight:bold;
+text-decoration:underline;
+font-style:normal;
+}
+
+mark {
+background-color:#DBE5F0;
+color:#124375;
+font-weight:bold;
+text-decoration:underline;
+}
+
+span {
+color:#DBE5F0;
+font-weight:bold;
+text-shadow: -1px 0 #B2C8DF, 0 1px #B2C8DF, 1px 0 #B2C8DF, 0 -1px #B2C8DF;
+filter: drop-shadow(0px 0px 1px #5786B5)
+drop-shadow(0px 0px 1px #7EA2C7) drop-shadow(0px 0px 1px #fff)
+drop-shadow(0px 0px 1px #5786B5) drop-shadow(1px 1px 0px #0000004d);
+}
+
+  textarea {
+    font-size: 0.8rem;
+    font-family: ms gothic;
+    letter-spacing: 1px;
+  }
+
+  textarea {
+    padding: 5px;
+    max-width: 60%;
+    height: 10px;
+    line-height: 1.2;
+    border-radius: 5px;
+    border: 1px dashed #ccc;
+    box-shadow: none;
+  	resize: none;
+  }
+
+.title {
+background-color: #d1e4f9;
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+background-color: rgba(255, 255, 255, 0.486);
+background-blend-mode: overlay;
+border:1px groove #b2c8df;
+border-radius:10px;
+color: #124375;
+padding:5px 10px 5px 10px;
+text-align:left;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+font-weight:bold;
+box-shadow: -1px -1.4px 1px inset #D1D1D1, 2px 3px 1.5px inset white, 0px 0px 2px #E0E0E0;
+}
+
+#s-m-t-tooltip{
+/* basic */
+max-width: 170px;
+ z-index: 999;
+margin: 24px 14px 7px 12px;
+/* style and design */
+padding:5px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+border-radius:10px;
+border:1px groove #b2c8df;
+background-color:white;
+background-image:url("https://rice.nekoweb.org/rice/c027-2.gif");
+color: #5d5d5d;
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+font-weight:bold;
+box-shadow: 0px 0px 5px 0px #8aa4c1 inset;
+}
+
+.tablinks {
+border:none;
+background-color:transparent;
+text-decoration:underline;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+color:#124375;
+font-family:font;
+font-size:14px;
+text-align:left;
+padding:0px;
+cursor: url('https://rice.nekoweb.org/toroinoue.ico'), auto;
+}
+
+.tablinks:hover {
+border:none;
+background-color:transparent;
+text-decoration:underline;
+text-shadow: -1px -1px 0 #b2c8df, 1px -1px 0 #b2c8df, -1px 1px 0 #b2c8df, 1px 1px 0 #b2c8df;
+color:#124375;
+font-family:font;
+font-size:14px;
+font-weight:normal;
+font-style:normal;
+cursor: url('https://rice.nekoweb.org/kuro.ico'), auto;
+}
+
+ul {
+list-style:url("https://rice.nekoweb.org/rice/g06-icon-circle.gif");
+padding-left:20px;
+margin-top:5px;
+line-height: normal;
+}
+
+.nav {
+background-image:url("https://rice.place/rice/nav05.png");
+/** nav image made by me!! **/
+display: flex;
+justify-content: center;
+align-items: center;
+height:30px;
+width:125px;
+}
+
+.nav:hover {
+background-image:url("https://rice.place/rice/nav06.png");
+}
+
+.footer {
+margin:auto;
+margin-top:10px;
+width:600px;
+text-align:center;
+text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#wings {
+position:absolute;
+top:300px;
+left:-95px;
+z-index:-1;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+width:910px;
+}
+
+.wingsl .wingsr {
+/** wings made by me! **/
+}
+
+/** made by me!! **/
+#torowave {
+position:absolute;
+top:295px;
+right:125px;
+z-index:1;
+}
+
+/** made by me!! **/
+#keychain {
+position:absolute;
+top:10px;
+right:-40px;
+z-index:1;
+}
+
+/** made by me!! **/
+#toro {
+position:absolute;
+bottom:-20px;
+right:-30px;
+z-index:1;
+background-image:url("https://rice.nekoweb.org/rice/toroface01.png");
+width:80px;
+height:82px;
+}
+
+#toro:hover {
+position:absolute;
+bottom:-20px;
+right:-30px;
+z-index:1;
+background-image:url("https://rice.nekoweb.org/rice/toroface02.png");
+}
+
+/** not made by me! **/
+#torodance {
+position:absolute;
+top:340px;
+left:40px;
+z-index:1;
+}
+
+/** credit is on the image!! **/
+#torohanging {
+position:absolute;
+top:-40px;
+left:-300px;
+z-index:1;
+width:169px;
+height:264px;
+background-image:url("");
+}
+
+		.black_overlay{
+			display: none;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			background-color: none;
+			z-index:1001;
+			-moz-opacity: 0.8;
+			opacity:.80;
+			filter: alpha(opacity=80);
+		}
+		.white_content {
+			display: none;
+			position: absolute;
+			top: 105%;
+			left: -3%;
+			width: 100%;
+			height: 100%;
+			padding: 0px;
+			border:0px solid #b2c8df; 
+			border-radius:10px;
+			background-color: none;
+			z-index:1002;
+			overflow: auto;
+		}
+
+#statuscafe {
+    padding: .5em;
+    background-color: none;
+    border: 0px solid midnightblue;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0px 0px 5px 10px;
+}
